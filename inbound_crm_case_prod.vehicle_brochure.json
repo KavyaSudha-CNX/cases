@@ -1,0 +1,678 @@
+[{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c3812b"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "DZIRE",
+  "variant": "Non Tour",
+  "alternateModelName": "NEW SWIFT DZIRE",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Dzire_6_Pages_Vertical_Web_Brochure_Updated_with_S_CNG.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c3812c"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "DZIRE",
+  "variant": "Non Tour",
+  "alternateModelName": "SMG DZIRE",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Dzire_6_Pages_Vertical_Web_Brochure_Updated_with_S_CNG.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c3812e"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "S-PRESSO",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Spresso_6_pager_brochure_Red_car_A4_23_New_2023_Digital.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c3812f"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "NEW ERTIGA",
+  "variant": "Non Tour",
+  "alternateModelName": "ERTIGA",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Ertiga_6_page_brochure.pdf\r\n",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38122"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "NEW ALTO K10",
+  "variant": "Tour",
+  "alternateModelName": "",
+  "url": "https://static.marutisuzukicommercial.com/-/media/msilcommercial/images/tourh1/document/tourh1_leaflet.pdf?_gl=1*mdc6qg*_ga*MTk2MDQ3MTUyNC4xNjk1MzYyMzgz*_ga_M8CBMSMWSG*MTcxNDc0Mzk0Ni43LjEuMTcxNDc0NDA4OC4zMi4wLjA.",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38121"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "NEW ALTO K10",
+  "variant": "Non Tour",
+  "alternateModelName": "ALTO K10",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Alto_Brochure_and_Spec_Sheet_286x200MM_Digital_CS_5.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38124"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "ALTO 800",
+  "variant": "Tour",
+  "alternateModelName": "",
+  "url": "NA",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38130"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "NEW ERTIGA",
+  "variant": "Tour",
+  "alternateModelName": "ERTIGA",
+  "url": "https://static.marutisuzukicommercial.com/-/media/msilcommercial/images/tour-m/document/tourm_leaflet.pdf?_gl=1*wd3det*_ga*MTk2MDQ3MTUyNC4xNjk1MzYyMzgz*_ga_M8CBMSMWSG*MTcxNDc0Mzk0Ni43LjEuMTcxNDc0NDE0MC41OC4wLjA.",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38131"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "VITARA BREZZA",
+  "variant": "Non Tour",
+  "alternateModelName": "NEW BREZZA",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/9299_S_Brezza_6_Page_CNG_Brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca18d3e50c4536c38131"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "VITARA BREZZA",
+  "variant": "Tour",
+  "alternateModelName": "NEW BREZZA",
+  "url": "https://www.marutisuzuki.com/brezza.html",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38132"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "EECO",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Eeco-Passenger-BRAND-Leaflet.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38133"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "EECO",
+  "variant": "Tour",
+  "alternateModelName": "",
+  "url": "https://static.marutisuzukicommercial.com/-/media/msilcommercial/images/tourv/document/tourv_updated.pdf?_gl=1*mljghh*_ga*MTk2MDQ3MTUyNC4xNjk1MzYyMzgz*_ga_M8CBMSMWSG*MTcxNDc0Mzk0Ni43LjEuMTcxNDc0NDE4NS4xMy4wLjA.",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38134"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "EECO",
+  "variant": "Cargo",
+  "alternateModelName": "",
+  "url": "https://static.marutisuzukicommercial.com/-/media/msilcommercial/images/eeco-cargo/document/eecocargo_leaflet.pdf?_gl=1*r8781u*_ga*MTk2MDQ3MTUyNC4xNjk1MzYyMzgz*_ga_M8CBMSMWSG*MTcxNDc0Mzk0Ni43LjEuMTcxNDc0NDA2MC42MC4wLjA.",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38136"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "FRONX",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://nexaprod6.azureedge.net/-/media/feature/nexawebsitecarbrand/flash/fronx-brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38123"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "ALTO 800",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "NA",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38125"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "WAGONR",
+  "variant": "Non Tour",
+  "alternateModelName": "NEW WAGON-R",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/WagonR_MMC_Brochure_Artwork_(11.75X8.25)_Final_R_09_april_24.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17f3e50c4536c3812c"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "DZIRE",
+  "variant": "Tour",
+  "alternateModelName": "SMG DZIRE",
+  "url": "https://static.marutisuzukicommercial.com/-/media/msilcommercial/images/tours/document/dzire-tour-s---commercial-leaflet_digital.pdf?_gl=1*113vm3b*_ga*MjA1NDIyNDg0NS4xNzAxMTU1ODM5*_ga_M8CBMSMWSG*MTcxNTY4NTA1My4xMi4xLjE3MTU2ODUwNzcuMzYuMC4w",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c3812d"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "NEW SWIFT DZIRE",
+  "variant": "Tour",
+  "alternateModelName": "",
+  "url": "https://static.marutisuzukicommercial.com/-/media/msilcommercial/images/tours/document/dzire-tour-s---commercial-leaflet_digital.pdf?_gl=1*113vm3b*_ga*MjA1NDIyNDg0NS4xNzAxMTU1ODM5*_ga_M8CBMSMWSG*MTcxNTY4NTA1My4xMi4xLjE3MTU2ODUwNzcuMzYuMC4w",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38126"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "WAGONR",
+  "variant": "Tour",
+  "alternateModelName": "",
+  "url": "https://static.marutisuzukicommercial.com/-/media/msilcommercial/images/tourh3/document/tourh3_leaflet.pdf?_gl=1*mjfzdl*_ga*MTk2MDQ3MTUyNC4xNjk1MzYyMzgz*_ga_M8CBMSMWSG*MTcxNDc0Mzk0Ni43LjEuMTcxNDc0NDEwNy4xMy4wLjA.",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38127"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "CELERIO",
+  "variant": "Non Tour",
+  "alternateModelName": "NEW CELERIO",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/15_Page_Brochure_Celerio_Digital.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38128"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "CELERIO",
+  "variant": "Tour",
+  "alternateModelName": "",
+  "url": "NA",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38129"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "SWIFT",
+  "variant": "Non Tour",
+  "alternateModelName": "NEW SWIFT",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/EpicNewSwift_Brochure_Vertical.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4806c38129"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "SWIFT",
+  "variant": "Tour",
+  "alternateModelName": "NEW SWIFT",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Swfit_Brand_Brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c3812a"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "DZIRE",
+  "variant": "Non Tour",
+  "alternateModelName": "SWIFT DZIRE",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Dzire_6_Pages_Vertical_Web_Brochure_Updated_with_S_CNG.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38137"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "JIMNY",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://nexaprod2.azureedge.net/-/media/feature/nexawebsitecarbrand/rocky/jimny-brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38138"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "GRAND VITARA",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://nexaprod4.azureedge.net/-/media/feature/nexawebsiteherobanner/brochure/grand-vitara_brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38139"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "INVICTO",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://nexaprod4.azureedge.net/-/media/feature/nexawebsitecarbrand/invicto/invicto-brochure_invicto-pdf.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c3813a"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "XL6",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://nexaprod2.azureedge.net/-/media/feature/nexawebsiteherobanner/brochure/xl6-brochure-for-digital.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c3813c"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "BALENO",
+  "variant": "Non Tour",
+  "alternateModelName": "NEW BALENO",
+  "url": "https://nexaprod1.azureedge.net/-/media/feature/nexawebsiteherobanner/brochure/the-new-age-baleno_new_brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c3813d"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "IGNIS",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://nexaprod4.azureedge.net/-/media/feature/nexawebsiteherobanner/brochure/ignis-brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38140"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBooking",
+  "channel": "Nexa",
+  "model": "",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://www.nexaexperience.com/e-booking?login=0%26utm_source=crm%26utm_medium=sms%26utm_content=ebook%26utm_campaign=callcentre_tollfree_crm",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38141"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBooking",
+  "channel": "Arena",
+  "model": "",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://www.marutisuzuki.com/channels/arena/service/ebook-car?utm_source=crm%26utm_medium=sms%26utm_content=ebook%26utm_campaign=callcentre_tollfree_crm",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c3813e"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "testDriveBooking",
+  "channel": "Nexa",
+  "model": "",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://www.nexaexperience.com/book-test-drive?utm_source=crm%26utm_medium=sms%26utm_content=btd%26utm_campaign=callcentre_tollfree_crm\n",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38142"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "showRoomVisit",
+  "channel": "Arena",
+  "model": "",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://www.marutisuzuki.com/book-showroom-visit?utm_source=crm%26utm_medium=sms%26utm_content=bs%26utm_campaign=callcentre_tollfree_crm",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38143"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "showRoomVisit",
+  "channel": "Nexa",
+  "model": "",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://www.nexaexperience.com/book-showroom-visit?utm_source=crm%26utm_medium=sms%26utm_content=bs%26utm_campaign=callcentre_tollfree_crm",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c3813f"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "testDriveBooking",
+  "channel": "Arena",
+  "model": "",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://www.marutisuzuki.com/book-a-test-drive?utm_source=crm%26utm_medium=sms%26utm_content=btd%26utm_campaign=callcentre_tollfree_crm\n",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "65b23a2bcbbf47927232a7be"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "DZIRE",
+  "variant": "Tour",
+  "alternateModelName": "NEW SWIFT DZIRE",
+  "url": "https://static.marutisuzukicommercial.com/-/media/msilcommercial/images/tours/document/dzire-tour-s---commercial-leaflet_digital.pdf?_gl=1*113vm3b*_ga*MjA1NDIyNDg0NS4xNzAxMTU1ODM5*_ga_M8CBMSMWSG*MTcxNTY4NTA1My4xMi4xLjE3MTU2ODUwNzcuMzYuMC4w",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c3813b"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "CIAZ",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://nexaprod4.azureedge.net/-/media/feature/nexawebsiteherobanner/brochure/all_new_ciaz-brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e52f4536c3812a"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "DZIRE",
+  "variant": "Tour",
+  "alternateModelName": "SWIFT DZIRE",
+  "url": "https://static.marutisuzukicommercial.com/-/media/msilcommercial/images/tours/document/dzire-tour-s---commercial-leaflet_digital.pdf?_gl=1*113vm3b*_ga*MjA1NDIyNDg0NS4xNzAxMTU1ODM5*_ga_M8CBMSMWSG*MTcxNTY4NTA1My4xMi4xLjE3MTU2ODUwNzcuMzYuMC4w",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "667a8c14c4c0cb6f1db22098"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "FRONX",
+  "variant": "Tour",
+  "alternateModelName": "",
+  "url": "https://nexaprod5.azureedge.net/-/media/feature/nexawebsitecarbrand/flash/fronx-brochurenew.pdf#element_submenu",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "667a8c62c4c0cb6f1db22099"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "DZIRE (DI)",
+  "variant": "Tour",
+  "alternateModelName": "",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Dzire_6_Pages_Vertical_Web_Brochure_Updated_with_S_CNG.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "667a8c74c4c0cb6f1db2209a"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "DZIRE (DI)",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Dzire_6_Pages_Vertical_Web_Brochure_Updated_with_S_CNG.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "667a8c8ac4c0cb6f1db2209b"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "DZIRE (DR)",
+  "variant": "Tour",
+  "alternateModelName": "",
+  "url": "https://static.marutisuzukicommercial.com/-/media/msilcommercial/images/tour-m/document/tourm_leaflet.pdf?_gl=1*bj3t30*_ga*MTk2MDQ3MTUyNC4xNjk1MzYyMzgz*_ga_M8CBMSMWSG*MTcxNDc0Mzk0Ni43LjEuMTcxNDc0NDE2My4zNS4wLjA.",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "667a8c9bc4c0cb6f1db2209c"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "DZIRE (DR)",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://static.marutisuzukicommercial.com/-/media/msilcommercial/images/tour-m/document/tourm_leaflet.pdf?_gl=1*bj3t30*_ga*MTk2MDQ3MTUyNC4xNjk1MzYyMzgz*_ga_M8CBMSMWSG*MTcxNDc0Mzk0Ni43LjEuMTcxNDc0NDE2My4zNS4wLjA.",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38144"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "DAZZLING NEW DZIRE",
+  "variant": "Non Tour",
+  "alternateModelName": "DAZZLING NEW DZIRE",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Dzire-Product-Brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38145"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "DAZZLING NEW DZIRE",
+  "variant": "Tour",
+  "alternateModelName": "DAZZLING NEW DZIRE",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Dzire-Product-Brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c11135"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "SUPER CARRY",
+  "variant": "Tour",
+  "alternateModelName": "",
+  "url": "https://www.marutisuzukicommercial.com/content/dam/msil/commercial/in/en/assets/documents/ESPSuperCarryLeafletA4-Eng.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6513ca17d3e50c4536c38135"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "SUPER CARRY",
+  "variant": "Non Tour",
+  "alternateModelName": "",
+  "url": "https://www.marutisuzukicommercial.com/content/dam/msil/commercial/in/en/assets/documents/ESPSuperCarryLeafletA4-Eng.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "68c9a04b8988c2632c4b4518"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "VICTORIS",
+  "variant": "Tour",
+  "alternateModelName": "VICTORIS",
+  "url": "https://www.marutisuzuki.com/content/dam/msil/arena/in/en/assets/cars/victoris/documents/Arena-Victoris-Brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "68c9a07a8988c2632c4b4519"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "VICTORIS",
+  "variant": "Non Tour",
+  "alternateModelName": "VICTORIS",
+  "url": "https://www.marutisuzuki.com/content/dam/msil/arena/in/en/assets/cars/victoris/documents/Arena-Victoris-Brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6969fb5a7c87da909859de7d"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "THE EPIC SWIFT",
+  "variant": "Non Tour",
+  "alternateModelName": "THE EPIC SWIFT",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Swift_Vertical_Brochure_final_highres.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6969fb867c87da909859de7e"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "THE EPIC SWIFT",
+  "variant": "Tour",
+  "alternateModelName": "THE EPIC SWIFT",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Swift_Vertical_Brochure_final_highres.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6969fd117c87da909859de8a"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "EPIC NEW SWIFT",
+  "variant": "Non Tour",
+  "alternateModelName": "THE EPIC SWIFT",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Swift_Vertical_Brochure_final_highres.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6969fd337c87da909859de8b"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "EPIC NEW SWIFT",
+  "variant": "Tour",
+  "alternateModelName": "THE EPIC SWIFT",
+  "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Swift_Vertical_Brochure_final_highres.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6995a6333468c23f22f98617"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "E VITARA",
+  "variant": "Non Tour",
+  "alternateModelName": "E VITARA",
+  "url": "https://www.nexaexperience.com/content/dam/msil/ev/in/en/assets/cars/e-vitara/brochure/eVITARA_Brochure.pdf",
+  "activeFlag": true
+},
+{
+  "_id": {
+    "$oid": "6995a64b3468c23f22f98618"
+  },
+  "communicationType": "SMS",
+  "communicationSubType": "vehicleBrochure",
+  "model": "E VITARA",
+  "variant": "Tour",
+  "alternateModelName": "E VITARA",
+  "url": "https://www.nexaexperience.com/content/dam/msil/ev/in/en/assets/cars/e-vitara/brochure/eVITARA_Brochure.pdf",
+  "activeFlag": true
+}]
