@@ -1,0 +1,2 @@
+"id","current_status_code","current_reason_code","applicable_status_code","applicable_reason_code","channel_id","lob_id","case_type_id","operation","is_active","created_at","created_by","modified_at","modified_by"
+"4",NULL,NULL,"2","5","3","5","2","3",True,"2026-04-06 05:50:32.727406","ADMIN",NULL,NULL
