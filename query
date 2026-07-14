@@ -1,0 +1,22 @@
+select cm.category_mapping_id as CategoryMappingId,
+p.primary_cat_name as PrimaryCategory,
+bu.channel_name as Channel,
+lob.lob_name as LOB,
+ct.case_type_name as CaseType,
+c.category_name as Category,
+r.related_with_name as RelatedWith,
+d.device_name as DeviceType,
+cm.is_active as IsActive,
+s.secondary_cat_name as SecondaryCategory,
+t.tertiary_cat_name as TeritiaryCategory
+from master.master_category_mapping cm
+join master.master_category c on c. category_id = cm.category_id
+join master.master_category_primary p on p.primary_cat_id = cm.primary_cat_id
+join master.master_category_secondary s on s.secondary_cat_id = cm.secondary_cat_id
+join master.master_category_tertiary t on t.tertiary_cat_id = cm.tertiary_cat_id 
+join master.related_with r on cm.related_with_id = r.id
+join master.master_device_type d on d.device_type_id = cm.device_type_id
+join master.master_lob_channel_casetype_mapping lccm on lccm.id = cm.lob_channel_casetype_id
+join master.master_line_of_business lob on lob.lob_id = lccm.lob_id
+join master.master_business_unit bu on bu.channel_id = lccm.channel_id
+join master.master_case_type ct on ct.case_type_id = lccm.case_type_id
