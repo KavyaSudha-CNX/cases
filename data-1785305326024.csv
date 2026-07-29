@@ -1,0 +1,17 @@
+"category_mapping_id","lob_desc","service_type_name","case_type_name","category_name","primary_category_name","secondary_category_name","tertiary_category_name","related_to_name","priority_name","is_active"
+"1","EV Charging","Home","Complaint","Pre-installation","Charger","Delayed","Delivery","Dealer","1",True
+"2","EV Charging","Home","Complaint","Pre-installation","Charger","Item missing","Opened by Customer","Dealer","1",True
+"3","EV Charging","Home","Complaint","Pre-installation","Charger","Item Broken","Opened by IP","Dealer","1",True
+"4","EV Charging","Home","Complaint","Pre-installation","Charger","Item Broken","Opened by Customer","Dealer","1",True
+"5","EV Charging","Home","Complaint","Pre-installation","Charger","Unsealed Box received","NA","Dealer","1",True
+"6","EV Charging","Home","Complaint","Pre-installation","Installation","Delayed","Pending","Dealer","1",True
+"7","EV Charging","Home","Complaint","Pre-installation","Site Readiness","Support Not Provided","RWA","Dealer","1",True
+"8","EV Charging","Home","Complaint","Pre-installation","Site Readiness","Support Not Provided","Discom","Dealer","1",True
+"9","EV Charging","Home","Complaint","Pre-installation","Site Readiness","Support Not Provided","Additional Services","Dealer","1",True
+"11","EV Charging","Public - MSIL","Complaint","Charger Operations","Charging Bay","Blocked","By Dealer vehicle","Dealer","1",True
+"12","EV Charging","Public - MSIL","Complaint","Charger Operations","Charging Bay","Blocked","By User vehicle","Dealer","1",True
+"13","EV Charging","Public - MSIL","Complaint","Charger Operations","Not allowed","Access to Charger","NA","Dealer","1",True
+"14","EV Charging","Public - MSIL","Complaint","Charger Operations","Not allowed","Access to Premise","NA","Dealer","1",True
+"15","EV Charging","Public - MSIL","Complaint","Charger Operations","Not allowed","By Another User","NA","Dealer","1",True
+"16","EV Charging","Home","Complaint","Post Installation","RFID","Damaged","NA","Dealer","1",True
+"10","EV Charging","Public - MSIL","Complaint","Charger Operations","Charger","Gun is stuck","NA","Dealer","1",True
