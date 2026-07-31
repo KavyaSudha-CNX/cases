@@ -40,3 +40,29 @@ SELECT "DEALER_MAP_CD", "LOC_CD" , "COMP_FA" ,"PARENT_GROUP" FROM "MULDMS"."SH_P
 where "ORDER_NUM" = 'ORDP26000178' AND "REG_NUM"='TG08AD8150'
  
 SELECT * FROM "MULDMS"."SH_POC_ORDBOOK" where "ORDER_NUM" = 'ORDP26000178' AND "REG_NUM"='TG08AD8150'
+
+
+
+
+select 
+cm.category_mapping_id,
+lob.lob_desc,
+st.service_type_name,
+ct.case_type_name,
+c.category_name,
+p.primary_category_name,
+s.secondary_category_name,
+t.tertiary_category_name,
+r.related_to_name,
+pr.priority_name,
+cm.is_active
+from master.master_category_mapping cm
+left join master.master_line_of_business lob on cm.lob_id = lob.lob_id
+left join master.master_service_type st on cm.service_type_id = st.service_type_id
+left join master.master_case_type ct on cm.case_type_id = ct.case_type_id
+left join master.master_category c on cm.category_id = c.category_id
+left join master.master_primary_category p on cm.primary_category_id = p.primary_category_id
+left join master.master_secondary_category s on cm.secondary_category_id = s.secondary_category_id
+left join master.master_tertiary_category t on cm.tertiary_category_id = t.tertiary_category_id
+left join master.master_related_to r on cm.related_to_id = r.related_to_id
+left join master.master_priority pr on cm.priority_id = pr.priority_id;
