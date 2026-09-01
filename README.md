@@ -66,3 +66,14 @@ left join master.master_secondary_category s on cm.secondary_category_id = s.sec
 left join master.master_tertiary_category t on cm.tertiary_category_id = t.tertiary_category_id
 left join master.master_related_to r on cm.related_to_id = r.related_to_id
 left join master.master_priority pr on cm.priority_id = pr.priority_id;
+
+
+UPDATE master.master_ui_tab_config
+SET is_closure_tab_visible=true;
+
+
+INSERT INTO master.master_case_journey_query (applicable_status_code, applicable_reason_code, channel_id, lob_id, case_type_id, operation, is_active, created_at, created_by) VALUES((SELECT status_code_id FROM master.master_case_status_code WHERE status_code_name = 'Active'), (SELECT reason_code_id FROM master.master_case_reason_code WHERE reason_code_name = 'New'), (SELECT channel_id FROM master.master_business_unit WHERE channel_name = 'Arena'), (SELECT lob_id FROM master.master_line_of_business WHERE lob_name = 'Sales'), (SELECT case_type_id FROM master.master_case_type WHERE case_type_name = 'Query'), (SELECT operation_id FROM master.master_case_operation WHERE operation_name = 'registercase'), true, now(), 'ADMIN');
+
+INSERT INTO master.master_case_journey_query (applicable_status_code, applicable_reason_code, channel_id, lob_id, case_type_id, operation, is_active, created_at, created_by) VALUES((SELECT status_code_id FROM master.master_case_status_code WHERE status_code_name = 'Active'), (SELECT reason_code_id FROM master.master_case_reason_code WHERE reason_code_name = 'New'), (SELECT channel_id FROM master.master_business_unit WHERE channel_name = 'Nexa'), (SELECT lob_id FROM master.master_line_of_business WHERE lob_name = 'Sales'), (SELECT case_type_id FROM master.master_case_type WHERE case_type_name = 'Query'), (SELECT operation_id FROM master.master_case_operation WHERE operation_name = 'registercase'), true, now(), 'ADMIN');
+
+INSERT INTO master.master_case_journey_query (applicable_status_code, applicable_reason_code, channel_id, lob_id, case_type_id, operation, is_active, created_at, created_by) VALUES((SELECT status_code_id FROM master.master_case_status_code WHERE status_code_name = 'Active'), (SELECT reason_code_id FROM master.master_case_reason_code WHERE reason_code_name = 'New'), (SELECT channel_id FROM master.master_business_unit WHERE channel_name = 'Commercial'), (SELECT lob_id FROM master.master_line_of_business WHERE lob_name = 'Sales'), (SELECT case_type_id FROM master.master_case_type WHERE case_type_name = 'Query'), (SELECT operation_id FROM master.master_case_operation WHERE operation_name = 'registercase'), true, now(), 'ADMIN');
