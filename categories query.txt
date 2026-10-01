@@ -1,0 +1,121 @@
+CREATE TEMP TABLE tmp_service_home_charger (
+    category_name VARCHAR(255),
+    primary_category_name VARCHAR(255),
+    secondary_category_name VARCHAR(255),
+    tertiary_category_name VARCHAR(255)
+);
+
+INSERT INTO tmp_service_home_charger
+(
+    category_name,
+    primary_category_name,
+    secondary_category_name,
+    tertiary_category_name
+)
+VALUES
+('Service Home Charger', 'Charger', 'Not working', 'NA'),
+('Service Home Charger', 'Charger', 'Damaged', 'NA'),
+('Service Home Charger', 'Charger', 'Gun Related', 'NA'),
+('Service Home Charger', 'Charger', 'Higher Charging Time', 'NA'),
+('Service Home Charger', 'Charger', 'No power', 'NA'),
+('Service Home Charger', 'Charger', 'Electric Shock', 'NA'),
+('Service Home Charger', 'Others', 'NA', 'NA'),
+('Service Home Charger', 'Charging Interrupted', 'Interruption After Few Minutes', 'NA'),
+('Service Home Charger', 'Charging Interrupted', 'Stops After Power Restoration', 'No Auto Restart After Power Cut'),
+('Service Home Charger', 'RFID', 'Damaged', 'NA'),
+('Service Home Charger', 'Charger Not Working', 'No Power / No Light', 'No Indicator Display'),
+('Service Home Charger', 'Charger Not Working', 'No Power / No Light', 'Charger Dead After Power Failure'),
+('Service Home Charger', 'Charger Not Working', 'Red Light Showing', 'Solid Red Light'),
+('Service Home Charger', 'Charger Not Working', 'Red Light Showing', 'Blinking Red Light'),
+('Service Home Charger', 'Charger Not Working', 'Yellow/Orange Light Showing', 'Blinking Orange Light'),
+('Service Home Charger', 'Charger Not Working', 'Blue Light Blinking', 'Blue Light Continues Blinking'),
+('Service Home Charger', 'Charger Not Working', 'Charger Fault Error', 'Charger Showing Fault/Error'),
+('Service Home Charger', 'Charger Not Working', 'Charger Unavailable', 'Charger Showing Unavailable'),
+('Service Home Charger', 'Charging Not Initiating', 'Charging Not Starting via RFID', 'RFID Tap Not Working'),
+('Service Home Charger', 'Charging Not Initiating', 'Gun Not Locking', 'Gun Not Locked in Vehicle'),
+('Service Home Charger', 'Slow Charging', 'Excessive Charging Time', 'Overnight Charging Incomplete'),
+('Service Home Charger', 'Slow Charging', 'Low Charging Output', 'Charger Derated Capacity'),
+('Service Home Charger', 'Slow Charging', 'Load Capacity Concern', 'Load Upgrade Required'),
+('Service Home Charger', 'Charger Connectivity Issue', 'Charger Unavailable in app', 'Internet not connected'),
+('Service Home Charger', 'Charger Connectivity Issue', 'Not Connected in App', 'Charger Missing in App'),
+('Service Home Charger', 'RFID Card Issue', 'RFID not working', 'Home Charger'),
+('Service Home Charger', 'RFID Card Issue', 'RFID not working', 'Public Charger'),
+('Service Home Charger', 'RFID Card Issue', 'RFID Mismatch', 'Card Number Mismatch with Database'),
+('Service Home Charger', 'Electrical Issue', 'RCBO Issue', 'RCBO Overheating'),
+('Service Home Charger', 'Electrical Issue', 'RCBO Issue', 'RCBO Faulty'),
+('Service Home Charger', 'Electrical Issue', 'Earthing Concern', 'Earthing Not Proper'),
+('Service Home Charger', 'Electrical Issue', 'Cable Burnt/Spark From Charger', 'Charging Cable Burnt/Sparking'),
+('Service Home Charger', 'Charger Hardware Issue', 'Charging Gun Issue', 'Gun Stuck'),
+('Service Home Charger', 'Charger Hardware Issue', 'Charging Gun Issue', 'Gun Broken'),
+('Service Home Charger', 'Charger Hardware Issue', 'Damaged/Faulty', 'NA'),
+('Service Home Charger', 'Service / Support Concern', 'CP Team Not Responding', 'Calls Not Answered'),
+('Service Home Charger', 'Service / Support Concern', 'Dealer Not Responding', 'Dealer Not Contactable/Delay in Resolution'),
+('Service Home Charger', 'Configuration / Change Request', 'SIM Activation', 'Activate SIM Connectivity'),
+('Service Home Charger', 'Configuration / Change Request', 'Phase Change Request', 'Single Phase to Three Phase'),
+('Service Home Charger', 'Charging Not Initiating', 'Charging Not Starting via E for Me App', 'Green Light on Charger'),
+('Service Home Charger', 'Charging Not Initiating', 'Charging Not Starting via E for Me App', 'Orange/Red Light on Charger')
+
+-- Category
+INSERT INTO master_category (category_name)
+SELECT DISTINCT category_name
+FROM tmp_service_home_charger
+WHERE category_name IS NOT NULL
+ON CONFLICT (category_name) DO NOTHING;
+
+-- Primary Category
+INSERT INTO master_primary_category (primary_category_name)
+SELECT DISTINCT primary_category_name
+FROM tmp_service_home_charger
+WHERE primary_category_name IS NOT NULL
+ON CONFLICT (primary_category_name) DO NOTHING;
+
+
+-- Secondary Category
+INSERT INTO master_secondary_category (secondary_category_name)
+SELECT DISTINCT secondary_category_name
+FROM tmp_service_home_charger
+WHERE secondary_category_name IS NOT NULL
+ON CONFLICT (secondary_category_name) DO NOTHING;
+
+
+-- Tertiary Category
+INSERT INTO master_tertiary_category (tertiary_category_name)
+SELECT DISTINCT tertiary_category_name
+FROM tmp_service_home_charger
+WHERE tertiary_category_name IS NOT NULL
+ON CONFLICT (tertiary_category_name) DO NOTHING;
+
+-- Mapping
+INSERT INTO master_category_mapping
+(
+    lob_channel_case_type_id,
+    category_id,
+    primary_category_id,
+    secondary_category_id,
+    tertiary_category_id
+)
+SELECT DISTINCT
+    d.lob_channel_case_type_id,
+    c.id,
+    p.id,
+    s.id,
+    t.id
+FROM tmp_service_home_charger d
+
+JOIN master_category c
+    ON LOWER(TRIM(c.category_name)) =
+       LOWER(TRIM(d.category_name))
+
+JOIN master_primary_category p
+    ON LOWER(TRIM(p.primary_category_name)) =
+       LOWER(TRIM(d.primary_category_name))
+
+JOIN master_secondary_category s
+    ON LOWER(TRIM(s.secondary_category_name)) =
+       LOWER(TRIM(d.secondary_category_name))
+
+JOIN master_tertiary_category t
+    ON LOWER(TRIM(t.tertiary_category_name)) =
+       LOWER(TRIM(d.tertiary_category_name))
+
+ON CONFLICT DO NOTHING;
