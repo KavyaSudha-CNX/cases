@@ -161,7 +161,120 @@ select distinct related_with_id from master.master_category_mapping
 
 
 
+-- View: master.master_category_mapping_view
 
+-- DROP MATERIALIZED VIEW IF EXISTS master.master_category_mapping_view;
+
+CREATE MATERIALIZED VIEW IF NOT EXISTS master.master_category_mapping_view
+TABLESPACE pg_default
+AS
+ SELECT mcm.category_mapping_id,
+    mbu.channel_id,
+    mbu.channel_name,
+    upper(mbu.channel_name::text) AS upper_channel_name,
+    mbu.channel_desc,
+    mlob.lob_id,
+    mlob.lob_name,
+    upper(mlob.lob_name::text) AS upper_lob_name,
+    mlob.lob_desc,
+    mct.case_type_id,
+    mct.case_type_name,
+    upper(mct.case_type_name::text) AS upper_case_type_name,
+    mct.case_type_desc,
+    mc.category_id,
+    mc.category_name,
+    mc.category_desc,
+    mcp.primary_cat_id,
+    mcp.primary_cat_name,
+    mcp.primary_cat_desc,
+    mcs.secondary_cat_id,
+    mcs.secondary_cat_name,
+    mcs.secondary_cat_desc,
+    mct2.tertiary_cat_id,
+    mct2.tertiary_cat_name,
+    mct2.tertiary_cat_desc,
+    rw.id AS related_with_id,
+    rw.related_with_name,
+    rw.related_with_desc,
+    mdt.device_type_id,
+    mdt.device_name AS device_type_name,
+    upper(mdt.device_name::text) AS upper_device_type_name,
+    mdt.device_desc AS device_type_desc
+   FROM master.master_category_mapping mcm
+     LEFT JOIN master.master_lob_channel_casetype_mapping mlccm ON mcm.lob_channel_casetype_id = mlccm.id
+     LEFT JOIN master.master_business_unit mbu ON mlccm.channel_id = mbu.channel_id
+     LEFT JOIN master.master_line_of_business mlob ON mlccm.lob_id = mlob.lob_id
+     LEFT JOIN master.master_case_type mct ON mlccm.case_type_id = mct.case_type_id
+     LEFT JOIN master.master_category mc ON mcm.category_id = mc.category_id
+     LEFT JOIN master.master_category_primary mcp ON mcm.primary_cat_id = mcp.primary_cat_id
+     LEFT JOIN master.master_category_secondary mcs ON mcm.secondary_cat_id = mcs.secondary_cat_id
+     LEFT JOIN master.master_category_tertiary mct2 ON mcm.tertiary_cat_id = mct2.tertiary_cat_id
+     LEFT JOIN master.related_with rw ON mcm.related_with_id = rw.id
+     LEFT JOIN master.master_device_type mdt ON mcm.device_type_id = mdt.device_type_id
+WITH DATA;
+
+ALTER TABLE IF EXISTS master.master_category_mapping_view
+    OWNER TO crm_inbound_write;
+
+GRANT SELECT ON TABLE master.master_category_mapping_view TO cnx_arun_mohan;
+GRANT SELECT ON TABLE master.master_category_mapping_view TO cnx_kavyasudha_tulluru;
+GRANT SELECT ON TABLE master.master_category_mapping_view TO cnx_readonly;
+GRANT DELETE, INSERT, UPDATE, SELECT ON TABLE master.master_category_mapping_view TO cnx_readwrite;
+GRANT SELECT ON TABLE master.master_category_mapping_view TO cnx_saiprashanth_hosur;
+GRANT SELECT ON TABLE master.master_category_mapping_view TO cnx_satishchowdary_goli;
+GRANT ALL ON TABLE master.master_category_mapping_view TO crm_inbound_write;
+GRANT SELECT ON TABLE master.master_category_mapping_view TO maruti_cnx_inbound_read;
+GRANT SELECT ON TABLE master.master_category_mapping_view TO "msil-readonly";
+GRANT SELECT ON TABLE master.master_category_mapping_view TO readonly;
+
+CREATE INDEX master_category_mapping_view_case_type_name_index
+    ON master.master_category_mapping_view USING btree
+    (case_type_name COLLATE pg_catalog."default")
+    TABLESPACE pg_default;
+CREATE INDEX master_category_mapping_view_category_mapping_id_index
+    ON master.master_category_mapping_view USING btree
+    (category_mapping_id)
+    TABLESPACE pg_default;
+CREATE INDEX master_category_mapping_view_category_name_index
+    ON master.master_category_mapping_view USING btree
+    (category_name COLLATE pg_catalog."default")
+    TABLESPACE pg_default;
+CREATE INDEX master_category_mapping_view_channel_name_index
+    ON master.master_category_mapping_view USING btree
+    (channel_name COLLATE pg_catalog."default")
+    TABLESPACE pg_default;
+CREATE INDEX master_category_mapping_view_device_type_name_index
+    ON master.master_category_mapping_view USING btree
+    (device_type_name COLLATE pg_catalog."default")
+    TABLESPACE pg_default;
+CREATE INDEX master_category_mapping_view_lob_name_index
+    ON master.master_category_mapping_view USING btree
+    (lob_name COLLATE pg_catalog."default")
+    TABLESPACE pg_default;
+CREATE INDEX master_category_mapping_view_primary_cat_name_index
+    ON master.master_category_mapping_view USING btree
+    (primary_cat_name COLLATE pg_catalog."default")
+    TABLESPACE pg_default;
+CREATE UNIQUE INDEX master_category_mapping_view_unique_index
+    ON master.master_category_mapping_view USING btree
+    (category_mapping_id)
+    TABLESPACE pg_default;
+CREATE INDEX master_category_mapping_view_upper_case_type_name_index
+    ON master.master_category_mapping_view USING btree
+    (upper_case_type_name COLLATE pg_catalog."default")
+    TABLESPACE pg_default;
+CREATE INDEX master_category_mapping_view_upper_channel_name_index
+    ON master.master_category_mapping_view USING btree
+    (upper_channel_name COLLATE pg_catalog."default")
+    TABLESPACE pg_default;
+CREATE INDEX master_category_mapping_view_upper_device_type_name_index
+    ON master.master_category_mapping_view USING btree
+    (upper_device_type_name COLLATE pg_catalog."default")
+    TABLESPACE pg_default;
+CREATE INDEX master_category_mapping_view_upper_lob_name_index
+    ON master.master_category_mapping_view USING btree
+    (upper_lob_name COLLATE pg_catalog."default")
+    TABLESPACE pg_default;
 
 
 
