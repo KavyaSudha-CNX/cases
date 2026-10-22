@@ -1,0 +1,7 @@
+"id","partner_cd","name1","name2","name_alias","email","phone_number","partner_type_fkid","is_active","partner_role_fkid","parent_partner_id","external_id","created_at","modified_at","created_by","modified_by","age","qualification","gender"
+"56047",NULL,"Priyank","Madan","Priyank","priyank.madan@nagarro.com","7838103773","1",True,"4","11635","3166182@maruticrm.onmicrosoft.com","2023-07-13 07:25:37.303",NULL,"689f8d11-5954-4def-84e5-1bf655c2b5f7",NULL,NULL,NULL,NULL
+"62856","PranavBehl","Pranav","Behl","Pranav","pranav.behl@maruti.co.in","9873146622","1",True,"4","59","maruti_278149","2023-10-03 13:55:16.627",NULL,"adf14d93-32a8-46b9-9550-077f1a826ab3",NULL,NULL,NULL,NULL
+"305352","KavyaSudha","Kavya","Sudha","Kavya","concentrix_ktulluru1@maruti.co.in","9676077873","1",True,"4","59","concentrix_ktulluru1","2026-06-23 08:38:55.105",NULL,"60f3db66-cacb-41d1-bf19-8330b9f24c96",NULL,NULL,NULL,NULL
+"211913","AshuYadav","Ashu","Yadav","Ashu","ashu.yadav@maruti.co.in","8376014825","1",True,"4","59","877107","2026-01-29 11:29:18.866",NULL,"60f3db66-cacb-41d1-bf19-8330b9f24c96",NULL,NULL,NULL,NULL
+"147980",NULL,"Satish","Goli","Satish","concentrix_scgoli@maruti.co.in","8978964855","1",True,"4","59","concentrix_scgoli","2025-06-17 13:31:58.244",NULL,"97d47d82-ab14-4be9-88a7-022a60e49714",NULL,NULL,NULL,NULL
+"332029","ParnikaBhatia","Parnika","Bhatia","Parnika","parnika.bhatia@maruti.co.in","9888223693","1",True,"4","59","875546","2026-10-13 06:47:09.045",NULL,"60f3db66-cacb-41d1-bf19-8330b9f24c96",NULL,NULL,NULL,NULL

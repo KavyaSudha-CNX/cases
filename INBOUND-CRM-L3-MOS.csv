@@ -1,0 +1,8 @@
+"id","partner_cd","name1","name2","name_alias","email","phone_number","partner_type_fkid","is_active","partner_role_fkid","parent_partner_id","external_id","created_at","modified_at","created_by","modified_by","age","qualification","gender"
+"62294","TathagatSolanki","Tathagat","Solanki","Tathagat","Tathagat.Solanki@maruti.co.in","7880571888","1",True,"4","59","maruti_295167","2023-09-28 14:39:53.147",NULL,"c380d8c8-7db8-4ee6-83f4-3b8e4dd97c95",NULL,NULL,NULL,NULL
+"127202","NaveenKumar","Naveen","Kumar","Naveen","kumar.naveen@maruti.co.in","8588840375","1",True,"4","59","maruti_203408","2025-04-30 09:13:31.757",NULL,"60f3db66-cacb-41d1-bf19-8330b9f24c96",NULL,NULL,NULL,NULL
+"62381","KartikJindal","Kartik","Jindal","Kartik","Kartik.Jindal@maruti.co.in","9999646233","1",True,"4","59","maruti_555797","2023-09-28 14:40:06.34",NULL,"c380d8c8-7db8-4ee6-83f4-3b8e4dd97c95",NULL,NULL,NULL,NULL
+"62536","JaipalNA","Jaipal","NA","Jaipal","jaipal2@maruti.co.in","8605599893","1",True,"4","59","maruti_581615","2023-09-29 14:03:35.833",NULL,"c380d8c8-7db8-4ee6-83f4-3b8e4dd97c95",NULL,NULL,NULL,NULL
+"97456",NULL,"Avinash","Kaur","Avinash","Avinash.Kaur@maruti.co.in","8368391310","1",True,"4","11635","586587@maruticrm.onmicrosoft.com","2024-03-04 09:16:25.826",NULL,"de43c784-d104-4d41-87ae-7b7a7ca6f1fe",NULL,NULL,NULL,NULL
+"100589","RajuSingh","Raju","Singh","Raju","raju.singh@maruti.co.in","8368391310","1",True,"4","59","maruti_272957","2024-04-05 12:53:22.651",NULL,"de43c784-d104-4d41-87ae-7b7a7ca6f1fe",NULL,NULL,NULL,NULL
+"100591",NULL,"Raju","Singh","Raju","raju.singh@maruti.co.in","8368391310","1",True,"4","11635","272957@maruticrm.onmicrosoft.com","2024-04-05 12:59:28.913",NULL,"de43c784-d104-4d41-87ae-7b7a7ca6f1fe",NULL,NULL,NULL,NULL
