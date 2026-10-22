@@ -278,3 +278,8 @@ CREATE INDEX master_category_mapping_view_upper_lob_name_index
 
 
 
+ERROR:  must be owner of materialized view master_category_mapping_view
+CONTEXT:  SQL statement "REFRESH MATERIALIZED view CONCURRENTLY master.master_category_mapping_view"
+PL/pgSQL function refresh_materialized_view() line 3 at SQL statement 
+
+SQL state: 42501
